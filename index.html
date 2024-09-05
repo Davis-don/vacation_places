@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My 3 Dream Vacational Places</title>
+</head>
+<style>
+  .page-header{
+  width: 100vw;
+  height: 45px;
+  background-color: black;
+  }
+  .vocational-place1{
+    background-color: black;
+    padding: 20px;
+  }
+  .silicon-valley-vocation-image img , .berlin-germany-vocation-image img{
+width: 100%;
+height: 70%;
+object-fit: cover;
+  }
+  .parking-list-overall-container{
+  margin: 90px;
+  }
+  .parking-list-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  }
+
+
+  /*vocational place 2*/
+  .vocational-place2{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+  /*vocational place3*/
+  .vocational-place3{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+  }
+  /*why choose styling*/
+  .why-choose-container{
+
+  }
+  .page-footer{
+  background-color: rgb(4, 4, 30);
+  padding: 20px;
+  }
+  .newsletter-holder{
+    width: max-content;
+    margin: auto;
+  }
+@media (max-width:640px){
+  .vocational-place1-overall-images-container,.vocational-place2-overall-images-container,.vocational-place3-overall-images-container{
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  margin: auto;
+  gap:20px
+  }
+  .silicon-valley-vocation-image,.berlin-germany-vocation-image{
+  width: 80vw;
+  height: 40vh;
+
+  }
+  
+}
+@media screen and (min-width:641px) and (max-width:1025px){
+  .vocational-place1-overall-images-container,.vocational-place2-overall-images-container,.vocational-place3-overall-images-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+  gap:20px
+  }
+  .silicon-valley-vocation-image,.berlin-germany-vocation-image{
+height: 200px;
+
+  }
+}
+@media screen and (min-width:1026px){
+  .vocational-place1-overall-images-container,.vocational-place2-overall-images-container,.vocational-place3-overall-images-container{
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  margin: auto;
+  gap:20px
+  }
+  .silicon-valley-vocation-image,.berlin-germany-vocation-image{
+  width: 300px;
+  height: 300px;
+
+  }
+}
+  
+</style>
+<body>
+  <div class="overall-page-container">
+    <div class="page-header">
+      
+    </div>
+    <div class="page-content-section">
+        <div class="Heading-section">
+          <h1 style="text-align: center;">My 3 Dream Vacation Places</h1>
+          <div class="vocational-place1">
+            <h2 style="text-align: center;color: white;">Silicon Valley,USA</h2>
+            <div class="vocational-place1-overall-images-container">
+              <div class="silicon-valley-vocation-image">
+                <img style="color: white;" src="./Images/Cupertino.jpg" alt="building with circular architectural design"/>
+                <p style="color: white;"><small>Apple Park Visitor Center (cupertino)</small></p>
+              </div>
+              <div class="silicon-valley-vocation-image">
+                <img style="color: white;" src="./Images/Shoreline park.jpg" alt="Darks on green grass"/>
+                <p style="color: white;"><small>Shoreline park and Amphitheatre (mountain view)</small></p>
+              </div>
+              <div class="silicon-valley-vocation-image">
+                <img style="color: white;" src="./Images/Stanford university.jpg" alt="stanford university building structure"/>
+                <p style="color: white;"><small>Stanford University</small></p>
+              </div>
+            </div>
+
+
+             <div class="parking-list-overall-container">
+              <h3 style="text-align: center;color: white;">Parking List</h3>
+              <div class="parking-list-container">
+                <div class="cloathings-category">
+                  <h4 style="color: white;">Clothing</h4>
+                  <ol style="color: white;">
+                    <li>T-Shirts and Casual Shirts (6): For everyday wear</li>
+                    <li>Jeans (4): comfortable for walking around</li>
+                    <li>Shorts (3): For warmer days</li>
+                    <li>Underwear and socks (7 pairs)</li>
+                    <li>Sweaters (2)</li>
+                  </ol>
+                </div>
+                <div class="Electronics">
+                  <h4 style="color: white;">Electronics</h4>
+                  <ol style="color: white;">
+                    <li>Smartphone and Charger</li>
+                    <li>Headphones</li>
+                    <li>Camera</li>
+                    <li>Power Bank</li>
+                  </ol>
+                </div>
+                <div class="Toiletaries">
+                  <h4 style="color: white;">Toothbrush and Toothpaste</h4>
+                  <ol style="color: white;">
+                    <li>Soap</li>
+                    <li>Hairbrush</li>
+                    <li>Deodorant</li>
+                  </ol>
+                </div>
+                <div class="travel-essentials">
+                  <h4 style="color: white;">Travel Essentials</h4>
+                  <ol style="color: white;">
+                    <li>Passport</li>
+                    <li>Credit cards</li>
+                    <li>Sunglasses</li>
+                    <li>Hat</li>
+                    <li>Notebook and pen</li>
+                  </ol>
+                </div>
+              </div>
+             </div>
+
+            
+            
+              
+          </div>
+
+
+
+        <div class="vocational-place2">
+          <h2 style="text-align: center;">Berlin germany</h2>
+          <div class="vocational-place2-overall-images-container">
+            <div class="berlin-germany-vocation-image">
+              <img src="./Images/Brandenburg gate.jpg" alt="strong acient wall"/>
+              <p style="color: black;"><small>Brandenburg  Gate (Brandenburg tor)</small></p>
+            </div>
+            <div class="silicon-valley-vocation-image">
+              <img src="./Images/Postdamerplatz.jpg" alt="modern tall building"/>
+              <p style="color: black;"><small>Postdamer platz</small></p>
+            </div>
+            <div class="silicon-valley-vocation-image">
+              <img src="./Images/Reichtag building.jpg" alt="structure of the german parliament"/>
+              <p style="color: black;"><small>Reichtag Building</small></p>
+            </div>
+          </div>
+          
+          
+          <div class="parking-list-overall-container">
+            <h3 style="text-align: center;color: black;">Parking List</h3>
+            <div class="parking-list-container">
+              <div class="cloathings-category">
+                <h4 style="color: black;">Clothing</h4>
+                <ol style="color: black;">
+                  <li>T-Shirts and Casual Shirts (6): For everyday wear</li>
+                  <li>Jeans (4): comfortable for walking around</li>
+                  <li>Shorts (3): For warmer days</li>
+                  <li>Underwear and socks (7 pairs)</li>
+                  <li>Sweaters (2)</li>
+                </ol>
+              </div>
+              <div class="Electronics">
+                <h4 style="color: black;">Electronics</h4>
+                <ol style="color: black;">
+                  <li>Smartphone and Charger</li>
+                  <li>Headphones</li>
+                  <li>Camera</li>
+                  <li>Power Bank</li>
+                </ol>
+              </div>
+              <div class="Toiletaries">
+                <h4 style="color: black;">Toothbrush and Toothpaste</h4>
+                <ol style="color: black;">
+                  <li>Soap</li>
+                  <li>Hairbrush</li>
+                  <li>Deodorant</li>
+                </ol>
+              </div>
+              <div class="travel-essentials">
+                <h4 style="color: black;">Travel Essentials</h4>
+                <ol style="color: black;">
+                  <li>Passport</li>
+                  <li>Credit cards</li>
+                  <li>Sunglasses</li>
+                  <li>Hat</li>
+                  <li>Notebook and pen</li>
+                </ol>
+              </div>
+            </div>
+           </div>
+  
+        </div>
+       
+
+        <div class="vocational-place3">
+          <h2 style="text-align: center;color: white;">Toronto canada</h2>
+          <div class="vocational-place3-overall-images-container">
+            <div class="berlin-germany-vocation-image">
+              <img style="color: white;" src="./Images/Cn tower.jpg" alt="tall freestanding structure in canada"/>
+              <p style="color: white;"><small>CN tower</small></p>
+            </div>
+            <div class="silicon-valley-vocation-image">
+              <img style="color: white;" src="./Images/Ripleys aquarium.jpg" alt="aquarium with a sea creature"/>
+              <p style="color: white;"><small>Ripleys Aquarium of Canada</small></p>
+            </div>
+            <div class="silicon-valley-vocation-image">
+              <img style="color: white;" src="./Images/Toronto islands.jpg" alt="island in toronto canada"/>
+              <p style="color: white;"><small>Toronto islands</small></p>
+            </div>
+          </div>
+         
+          <div class="parking-list-overall-container">
+            <h3 style="text-align: center;color: white;">Parking List</h3>
+            <div class="parking-list-container">
+              <div class="cloathings-category">
+                <h4 style="color: white;">Clothing</h4>
+                <ol style="color: white;">
+                  <li>T-Shirts and Casual Shirts (6): For everyday wear</li>
+                  <li>Jeans (4): comfortable for walking around</li>
+                  <li>Shorts (3): For warmer days</li>
+                  <li>Underwear and socks (7 pairs)</li>
+                  <li>Sweaters (2)</li>
+                </ol>
+              </div>
+              <div class="Electronics">
+                <h4 style="color: white;">Electronics</h4>
+                <ol style="color: white;">
+                  <li>Smartphone and Charger</li>
+                  <li>Headphones</li>
+                  <li>Camera</li>
+                  <li>Power Bank</li>
+                </ol>
+              </div>
+              <div class="Toiletaries">
+                <h4 style="color: white;">Toothbrush and Toothpaste</h4>
+                <ol style="color: white;">
+                  <li>Soap</li>
+                  <li>Hairbrush</li>
+                  <li>Deodorant</li>
+                </ol>
+              </div>
+              <div class="travel-essentials">
+                <h4 style="color: white;">Travel Essentials</h4>
+                <ol style="color: white;">
+                  <li>Passport</li>
+                  <li>Credit cards</li>
+                  <li>Sunglasses</li>
+                  <li>Hat</li>
+                  <li>Notebook and pen</li>
+                </ol>
+              </div>
+            </div>
+           </div>
+        </div>          
+        </div>
+        <div class="why-choose-container">
+            <h2 style="text-align: center;">Why above?</h2>
+            <p style="text-align: center;">The above places stand out due to their strong tech ecosystems, job opportunities, 
+              and quality of life.
+            </p>
+        </div>
+    </div>
+    <div class="page-footer">
+      <h2 style="text-align: center; color: white;">News Letter</h2>
+      <div class="newsletter-holder">
+        <form>
+          <ul style="list-style: none;">
+          <li>
+            <label style="color: white;" for="'fName">First Name</label>
+            <br/>
+        <input required id="fName" type="text" placeholder="First Name"/>
+          </li>
+     <li>
+      <label style="color: white;" for="'lName">Last Name</label>
+      <br/>
+        <input required id="lName" type="text" placeholder="last Name"/>
+     </li>
+     <li>
+      <label style="color: white;" for="'email">Email Adress</label>
+      <br/>
+      <input required id="email" type="email" placeholder="Email"/>
+     </li>
+       <li>
+        <label style="color: white;" for="visitArea">What area do you want to visit</label>
+        <br/>
+        <textarea></textarea>
+       </li>
+      </ul>
+      <button type="submit">Submit</button>
+        </form>
+      </div>
+     
+    </div>
+  </div>
+</body>
+</html>
